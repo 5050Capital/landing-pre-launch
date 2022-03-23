@@ -1,0 +1,62 @@
+html{
+    height: 100%
+}
+
+body{
+    height: 100%;
+    font-family: 'Roboto' !important;
+}
+
+.mainContainer{
+    height: 100%;
+    background-image: url("/assets/Imagen2.png");
+    background-size: contain;
+}
+
+.containerInfo{
+    border-radius: 5px;
+    background-color: #EDEDED;
+    padding: 20px 20px;
+}
+
+.containerInfo img {
+    width: 200px;
+    padding: 20px 0px;
+}
+
+.containerInfo h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.containerInfo p{
+    font-weight: 300;
+    font-size: 18px;
+    padding: 20px 0px 5px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.containerInfo input{
+    max-width: 300px;
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+    padding: 0px 0px 0px 5px;
+}
+
+.containerInfo button{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+.containerInfo button:hover{
+    transform: scale(1.1);
+}

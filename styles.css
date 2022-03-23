@@ -60,3 +60,24 @@ body{
 .containerInfo button:hover{
     transform: scale(1.1);
 }
+
+.containerIframe{
+    max-width: 600px;
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 750px) {
+    .containerIframe{
+        height: 400px !important;
+    }
+    .containerInfo img{
+        width: 90px !important;
+    }
+    .containerInfo h2 {
+        font-size: 30px !important;
+    }
+    .containerInfo{
+        height: 600px;
+    }
+}
